@@ -65,3 +65,45 @@ PHP 7.1
 ```shell
 sudo update-alternatives --set php /usr/bin/php7.1
 ```
+
+Para selecionar a versão do PHP que irá trabalhar com o Apache, primeiro desabilite a versão atual com o comando a2dismod e depois habilite a versão que precisa com o comando a2enmod:
+```shell
+sudo a2dismod php7.0
+sudo a2enmod php7.1
+```
+
+
+3 - Instalando o MySql 
+
+Instalando o MySql e suas dependencias 
+```shell
+sudo apt-get update
+sudo apt-get install mysql-server
+```
+Liberando o acesso remoto
+```shell
+sudo ufw allow mysql
+```
+
+4 - Instalando o PhpMyAdmin
+
+Atualize o sistema 
+```shell
+sudo apt-get update
+```
+
+Instale o phpmyadmin
+```shell 
+sudo apt-get install phpmyadmin -y
+```
+
+Instalando o mcrypt
+```shell
+sudo apt-get install php5.6 mcrypt && sudo apt-get install php7.0 mcrypt && sudo apt-get install php7.1 mcrypt 
+```
+
+Intalando Mbstring
+```shell
+sudo apt-get install php5.6-mbstring && sudo apt-get install php7.0-mbstring && sudo apt-get install php7.1-mbstring 
+```
+
