@@ -24,7 +24,7 @@ sudo apt-get install apache2
 ```
 2 - Install PHP 5.6 7.0 e 7.1
 ```shell
-sudo apt install python-software-properties
+sudo apt install python-software-properties || sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 ```
 
