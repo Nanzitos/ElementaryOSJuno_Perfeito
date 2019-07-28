@@ -108,6 +108,14 @@ Instale o phpmyadmin
 sudo apt-get install phpmyadmin -y
 ```
 
+Após a instalação do phpmyadmin, para acessa ló nos precisamos criar um link symbolic no sistema para pode acessar o link pelo navegador web pelo link http://localhost/phpmyadmin utilize o código abaixo para criar o link symbolic. Vale apena lembrar que para o link funcionar ele precisa ser criado dentro do diretório html em: /var/www/html
+
+```shell 
+ sudo ln -s /usr/share/phpmyadmin/ /var/www/html/phpmyadmin 
+```
+
+
+
 Instalando o mcrypt
 ```shell
 sudo apt-get install php5.6 mcrypt && sudo apt-get install php7.0 mcrypt && sudo apt-get install php7.1 mcrypt 
