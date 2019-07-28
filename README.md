@@ -78,6 +78,11 @@ sudo a2dismod php7.0
 sudo a2enmod php7.1
 ```
 
+Para validar se o php esta funcionando crie o arquivo info.php na pasta /var/www/html, em seguida digite o código abaixo para exibir as infos do php no seu navegador em: http://localhost/info.php
+
+```shell
+<?php phpinfo(); ?>
+```
 
 3 - Instalando o MySql 
 
