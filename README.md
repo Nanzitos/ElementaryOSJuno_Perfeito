@@ -16,7 +16,13 @@ sudo apt-get install unace unrar zip unzip xz-utils p7zip-full p7zip-rar sharuti
 sudo apt-get install -y software-properties-common
 ```
 # Install LAMP
-Instalação do Apps Linux, Apache2, MySql e PHP
+Instalação do Apps Linux, Apache2, MySql e PHP.
+Durante a instalação utilizaremos com frequencia o editor de texto no meu caso eu prefiro o vim, para instalar utilize o comando abaixo:
+
+```shell
+sudo apt install vim
+```
+
 
 1 - Install Apache2
 ```shell
