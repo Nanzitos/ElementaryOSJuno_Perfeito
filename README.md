@@ -99,7 +99,7 @@ Pode ser que o mysql não permita que o root acesso ao banco dado pelo phpmyadmi
 
 ```shell
 sudo mysql -u root
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'test'; 
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua_senha'; 
 ```
 4 - Instalando o PhpMyAdmin
 
