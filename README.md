@@ -95,7 +95,12 @@ Liberando o acesso remoto
 ```shell
 sudo ufw allow mysql
 ```
+Pode ser que o mysql não permita que o root acesso ao banco dado pelo phpmyadmin, para resolver isso utilize o comando abaixo que irá configurar uma senha para que o root possa acesso ao banco de dados 
 
+```shell
+sudo mysql -u root
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'test'; 
+```
 4 - Instalando o PhpMyAdmin
 
 Atualize o sistema 
