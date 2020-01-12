@@ -144,3 +144,10 @@ Instalando o pacote Gparted
 ```shell
 sudo apt install gparted
 ```
+
+7 - Instalando o editor de texto Vim
+
+Instalando o pacote Gparted 
+```shell
+sudo apt-get install vim
+```
