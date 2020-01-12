@@ -131,6 +131,11 @@ Intalando Mbstring
 sudo apt-get install php5.6-mbstring && sudo apt-get install php7.0-mbstring && sudo apt-get install php7.1-mbstring 
 ```
 
+Reiniciando o apache
+```shell
+systemctl restart apache2
+```
+
 5 - Instalando o Git 
 
 Instalando o pacote git completo
