@@ -145,9 +145,9 @@ Instalando o pacote Gparted
 sudo apt install gparted
 ```
 
-7 - Instalando o editor de texto Vim
+**Removendo Apps
 
-Instalando o pacote Gparted 
+Remoendo o navegador Epiphany
 ```shell
-sudo apt-get install vim
+sudo apt-get remove epiphany-browser*
 ```
