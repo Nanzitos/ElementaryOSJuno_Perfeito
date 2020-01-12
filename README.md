@@ -145,7 +145,7 @@ Instalando o pacote Gparted
 sudo apt install gparted
 ```
 
-##Removendo Apps
+## Removendo Apps
 
 Remoendo o navegador Epiphany
 ```shell
