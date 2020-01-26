@@ -156,3 +156,11 @@ Remoendo o navegador Epiphany
 ```shell
 sudo apt-get remove epiphany-browser*
 ```
+
+## Rotação automática 
+
+E comum que nas instalações do Elementary OS em notebook venham habilitado o auto-screen-rotation, este recurso e muito importante para determinados momentos como apresentação e etc... Mas é um recurso que pode acabar atrapalhando alguns usuários, eu particularmente prefiro desabilitar o recurso nativamente ao invés de remove-ló para isso temos uma combinação de teclas que faz isso de modo nativo no linux, segue o comando abaixo:
+
+```shell
+Tecla Super + O
+```
