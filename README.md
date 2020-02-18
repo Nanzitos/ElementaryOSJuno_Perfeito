@@ -164,3 +164,10 @@ E comum que nas instalações do Elementary OS em notebook venham habilitado o a
 ```shell
 Tecla Super + O
 ```
+
+## Montagem de CD/DVD 
+
+```shell
+sudo apt-get install gnome-disk-utility
+
+```
