@@ -51,9 +51,9 @@ sudo apt install php5.6-fpm && sudo apt install php7.0-fpm && sudo apt install p
 
 Instale o PHP cli, xml, mysql
 ```shell
-sudo apt install php5.6-cli php5.6-xml php5.6-mysql
-sudo apt install php7.0-cli php7.0-xml php7.0-mysql
-sudo apt install php7.1-cli php7.1-xml php7.1-mysql
+sudo apt install php5.6-cli php5.6-xml php5.6-mysql php5.6-mbstring -y &&
+sudo apt install php7.0-cli php7.0-xml php7.0-mysql php7.0-mbstring -y &&
+sudo apt install php7.1-cli php7.1-xml php7.1-mysql php7.1-mbstring -y 
 ```
 
 Alternar as versões do PHP
