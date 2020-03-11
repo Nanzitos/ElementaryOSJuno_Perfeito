@@ -171,3 +171,16 @@ Tecla Super + O
 sudo apt-get install gnome-disk-utility
 
 ```
+
+## Corrigindo Bugs da audio Conexant para HP Elitebook 840 G3 (https://www.linuxmint.com.br/discussion/50985/como-reativar-som-pelos-alto-falantes-em-atualizacoes-do-mint-e-outras-distros)
+
+1 - Baixe o arquivo em anexo (alsa-mixer-paths.zip)
+2 - Abra, com muita, mas muita cautela, o seu gerenciador de arquivos como administrador (root) pelo terminal (Ctrl+Alt+T):
+3 - Acesse a pasta "/usr/share/pulseaudio/alsa-mixer/paths/"
+4 - Após acessada a pasta, por segurança, faça uma cópia dos seguintes arquivos: 
+      analog-output.conf, 
+      analog-output-headphones.conf, 
+      analog-output-speaker.conf, 
+      analog-output-speaker-always.conf
+5 - Descompacte o anexo e cole os arquivos na pasta "/usr/share/pulseaudio/alsa-mixer/paths/", sobrescrevendo os respectivos     arquivos.
+    Se o áudio não funcionar, basta deletar os arquivos novos de lá e colocar os arquivos originais de volta. Atente-se em       deixá-los com os nomes originais.
