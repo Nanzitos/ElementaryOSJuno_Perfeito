@@ -15,6 +15,12 @@ sudo apt-get install unace unrar zip unzip xz-utils p7zip-full p7zip-rar sharuti
 ```shell
 sudo apt-get install -y software-properties-common
 ```
+
+4 - Install ssh
+```shell
+sudo apt-get install openssh-server
+```
+
 # Install LAMP
 Instalação do Apps Linux, Apache2, MySql e PHP.
 Durante a instalação utilizaremos com frequencia o editor de texto no meu caso eu prefiro o vim, para instalar utilize o comando abaixo:
