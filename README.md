@@ -155,6 +155,8 @@ Instalando o pacote Gparted
 ```shell
 sudo apt install gparted
 ```
+7 - Install DBeaver
+link: https://dbeaver.io/download/
 
 ## Removendo Apps
 
